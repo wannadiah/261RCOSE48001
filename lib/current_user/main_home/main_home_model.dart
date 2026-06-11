@@ -21,6 +21,8 @@ class MainHomeModel extends FlutterFlowModel<MainHomeWidget> {
 
   ///  State fields for stateful widgets in this page.
 
+  // Stores action output result for [Custom Action - getDailyStepCount] action in MainHome widget.
+  int? dailySteps;
   // Stores action output result for [Custom Action - getDailyStepCount] action in Column widget.
   int? freshSteps;
 
